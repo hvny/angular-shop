@@ -5,10 +5,15 @@
 
 body {
     margin: 0;
+    background-color: var(--backgroundColor);
+}
+
+a {
+  cursor: pointer;
 }
 
 :root {
-    --backgroundColor: #FFFDF6;
+    /* --backgroundColor: #FFFDF6; */
     --primaryColor: #F7EDE2;
     --secondaryColor: #E9C5B4;
     --backgroundColor: #f5f5f5;
