@@ -1,18 +1,4 @@
-<header class="header">
-  <a routerLink="/" routerLinkActive="active" class="link header__logo-link">
-    <img src="assets/images/icon.svg" alt="Логотип" class="header__logo" />
-  </a>
-  <nav class="header__nav">
-    <ul class="header__nav-list">
-      <li class="header__list-item">
-        <a class="link header__link " routerLink="/profile">
-          профиль
-        </a>
-      </li>
-    </ul>
-  </nav>
-</header>
+<app-header></app-header>
 <main class="main">
   <router-outlet></router-outlet>
 </main>
-<p>Текущий маршрут: {{ currentRoute }}</p>
