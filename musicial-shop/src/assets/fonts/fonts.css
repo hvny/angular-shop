@@ -10,7 +10,7 @@
     font-family: 'Roboto Slab';
     src: url('/assets/fonts/roboto-slab/RobotoSlab-Medium.woff2') format('woff2'),
         url('/assets/fonts/roboto-slab/RobotoSlab-Medium.woff') format('woff');
-    font-weight: 500; 
+    font-weight: 500;
     font-style: normal;
 }
 
@@ -18,7 +18,7 @@
     font-family: 'Roboto Slab';
     src: url('/assets/fonts/roboto-slab/RobotoSlab-Regular.woff2') format('woff2'),
          url('/assets/fonts/roboto-slab/RobotoSlab-Regular.woff') format('woff');
-    font-weight: 400; 
+    font-weight: 400;
     font-style: normal;
 }
 
@@ -55,4 +55,13 @@
     font-display: swap;
     rc: url("/assets/fonts/inter/Inter-Black.woff2") format("woff2");
     src: url("/assets/fonts/inter/Inter-Black.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'Ruslan Display';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("/assets/fonts/ruslan-display/RuslanDisplay-Regular.woff2") format("woff2");
+  src: url("/assets/fonts/ruslan-display/RuslanDisplay-Regular.woff") format("woff");
 }
