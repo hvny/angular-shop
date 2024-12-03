@@ -1,36 +1,28 @@
 <header class="header">
     <div class="header__container">
-        <div class="header__first-level">
-            <a routerLink="" routerLinkActive="active" class="link header__logo-link">
-                <img src="assets/images/icon.svg" alt="Логотип" class="header__logo" />
-            </a>
-            <p-tabMenu [model]="menuItems">
-                <ng-template pTemplate="item" let-item>
-                    <ng-container *ngIf="item.route; else elseBlock">
-                        <a [routerLink]="item.route" class="p-menuitem-link">
-                            <!-- <span [class]="item.icon"></span> -->
-                            <span class="ml-2">
-                                {{ item.label }}
-                            </span>
-                        </a>
-                    </ng-container>
-                    <ng-template #elseBlock>
-                        <a [href]="item.url" class="p-menuitem-link">
-                            <!-- <span [class]="item.icon"></span> -->
-                            <span class="ml-2">
-                                {{ item.label }}
-                            </span>
-                        </a>
-                    </ng-template>
-                </ng-template>
-            </p-tabMenu>
+        <a routerLink="" class="link header__logo-link">
+            <img src="assets/images/icon.svg" alt="Логотип" class="header__logo" />
+        </a>
+        <ul class="header__list">
+            <li class="header__list-item">
+                <a class="header__link" routerLink="">Главная</a>
+            </li>
+            <li class="header__list-item">
+                <a class="header__link" routerLink="/items">Товары</a>
+            </li>
+            <!-- <li class="header__list-item">
+                <a class="header__link">О Доставке</a>
+            </li> -->
+            <li class="header__list-item">
+                <a class="header__link" routerLink="/events">Акции</a>
+            </li>
+        </ul>
+        <div class="header__list  header__list_right">
+            <input 
+                class="header__input" 
+                placeholder="Поиск"
+            />
+            <button></button>
         </div>
-        <!-- <div class="header__second-level">
-            <p-megaMenu [model]="megaMenuItems">
-                <ng-template pTemplate="end">
-                    <input type="text" pInputText placeholder="Search" class="header__input header__input_search" />
-                </ng-template>
-            </p-megaMenu>
-        </div> -->
     </div>
 </header>

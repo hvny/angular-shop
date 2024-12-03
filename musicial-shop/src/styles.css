@@ -9,16 +9,44 @@ body {
 
 a {
   cursor: pointer;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+input {
+  outline: none;
+}
+
+.button {
+  cursor: pointer;
+  box-sizing: border-box;
+}
+
+.section {
+  width: 100%;
+  font-family: var(--textFont);
+}
+
+.section__content {
+  width: 1200px;
+  margin: 0 auto 0 auto;
 }
 
 :root {
   --primaryColor: #F7EDE2;
   --secondaryColor: #E9C5B4;
   --backgroundColor: #F7EDE2;
-  --textColor: #4E342E;
-  --accentColor: #98D8FA;
-  max-width: 1600px;
-  margin: auto;
+  --textColor: #000000;
+  --accentColor: #7bcefc;
+  --titleFont: 'Ruslan Display', 'Helvetica', sans-serif;
+  --textFont: 'Roboto Slab', 'Helvetica', sans-serif;
+  max-width: 2000px;
+  margin: 0 auto 0 auto;
   background-color: var(--backgroundColor);
 
 }
