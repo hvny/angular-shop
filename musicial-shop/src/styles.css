@@ -4,8 +4,7 @@
 @import url('assets/fonts/fonts.css');
 
 body {
-    margin: 0;
-    background-color: var(--backgroundColor);
+  margin: 0;
 }
 
 a {
@@ -13,14 +12,15 @@ a {
 }
 
 :root {
-  max-width: 1200px;
-  margin: auto;
-    /* --backgroundColor: #FFFDF6; */
   --primaryColor: #F7EDE2;
   --secondaryColor: #E9C5B4;
-  --backgroundColor: #f5f5f5;
+  --backgroundColor: #F7EDE2;
   --textColor: #4E342E;
-  --accentColor: #A3D8F4;
+  --accentColor: #98D8FA;
+  max-width: 1600px;
+  margin: auto;
+  background-color: var(--backgroundColor);
+
 }
 
 [data-theme="dark"] {

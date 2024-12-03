@@ -1,10 +1,12 @@
 .header {
-	width: 100%;
-	/* height: 70px; */
-	/* background-color: var(--primaryColor); */
-	/* border-bottom: 2px solid var(--secondaryColor); */
-	color: var(--textColor);
-	/* padding: 0 100px; */
+    width: 100%;
+    /* height: 70px; */
+    /* background-color: var(--primaryColor); */
+    /* border-bottom: 2px solid var(--secondaryColor); */
+    color: var(--textColor);
+    /* padding: 0 100px; */
+    margin-bottom: 95px;
+
 }
 
 .header__container {
@@ -22,6 +24,7 @@
 }
 
 .header__second-level {
+
 }
 
 .header__logo-link {
@@ -30,8 +33,8 @@
 }
 
 .header__logo {
-	width: 45px;
-	height: 45px;
+    width: 45px;
+    height: 45px;
 }
 
 .header__input_search {
@@ -45,8 +48,9 @@
 
 .header__input_search:focus,
 .header__input_search:active,
-.header__input_search:hover {
-	border-color: var(--secondaryColor);
+.header__input_search:hover  {
+    border-color: var(--secondaryColor);
+
 }
 
 ::ng-deep .p-tabmenu {
@@ -55,15 +59,15 @@
 
 ::ng-deep .p-tabmenu .p-tabmenu-nav,
 ::ng-deep .p-tabmenu .p-menuitem-link {
-	color: var(--textColor);
-	font-family: "Roboto Slab", "Arial", sans-serif;
-	font-weight: 400;
-	font-size: 18px;
-	background-color: transparent;
-	border: none;
-	/* border: solid var(--secondaryColor);; */
-	/* border-width: 0 0 2px 0; */
-	/* border-color: transparent transparent var(--secondaryColor) transparent; */
+    color: var(--textColor);
+    font-family: 'Roboto Slab', 'Arial', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    background-color: transparent;
+    border: none;
+    /* border: solid var(--secondaryColor);; */
+    /* border-width: 0 0 2px 0; */
+    /* border-color: transparent transparent var(--secondaryColor) transparent; */
 }
 
 ::ng-deep .p-tabmenu .p-menuitem-link:hover,
