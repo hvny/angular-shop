@@ -1,1 +1,17 @@
-<p>items works!</p>
+<div class="card">
+	<div class="card__wrapper">
+		<div class="card__title">
+			{{ counter | async }}
+		</div>
+		<div class="card__content">
+			<form [formGroup]="form">
+				<input type="text" formControlName="name" />
+			</form>
+		</div>
+		<div class="card__footer">
+			<button (click)="changeCounter(); $event.preventDefault()">
+				increase
+			</button>
+		</div>
+	</div>
+</div>

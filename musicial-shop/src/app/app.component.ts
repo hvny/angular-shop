@@ -1,10 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, inject } from '@angular/core';
 import { Router, RouterModule, RouterOutlet } from '@angular/router';
-// import { BrowserModule } from '@angular/platform-browser';
-// import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { ButtonModule } from 'primeng/button';
-import { ProfileComponent } from './profile/profile.component';
-import { HomeComponent } from './home/home.component';
 import { HeaderComponent } from './header/header.component';
 @Component({
   selector: 'app-root',
@@ -18,11 +13,11 @@ import { HeaderComponent } from './header/header.component';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  constructor(public router: Router) {}
+  private readonly _router  = inject(Router)
 
   get currentRoute(): string {
-    return this.router.url;
+    return this._router.url;
   }
-  title = 'musicial-shop';
 
+  title = 'musicial-shop';
 }
