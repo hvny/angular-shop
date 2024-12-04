@@ -5,6 +5,8 @@
 
 body {
   margin: 0;
+  overflow-x: hidden;
+
 }
 
 a {
@@ -38,15 +40,14 @@ input {
 }
 
 :root {
-  --primaryColor: #F7EDE2;
-  --secondaryColor: #E9C5B4;
+  --primaryColor: #FFF9F9;
+  --secondaryColor: #FFF9F9;
   --backgroundColor: #F7EDE2;
   --textColor: #000000;
   --accentColor: #7bcefc;
   --titleFont: 'Ruslan Display', 'Helvetica', sans-serif;
   --textFont: 'Roboto Slab', 'Helvetica', sans-serif;
   max-width: 2000px;
-  margin: 0 auto 0 auto;
   background-color: var(--backgroundColor);
 
 }
