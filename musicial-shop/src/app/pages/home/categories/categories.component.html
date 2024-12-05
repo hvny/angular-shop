@@ -1,0 +1,11 @@
+<section class="section categories">
+    <div class="categories__content section__content">
+        <ul class="categories__list">
+            <li *ngFor="let card of _categoriesCards" class="categories__item">
+                <app-category-card [title]="card.title" [imgUrl]="card.imgUrl" />
+            </li>
+        </ul>
+    </div>
+</section>
+  
+  

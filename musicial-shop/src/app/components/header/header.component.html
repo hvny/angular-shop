@@ -1,20 +1,20 @@
 <header class="header">
     <div class="header__container">
-        <a routerLink="" class="link header__logo-link">
-            <img src="assets/images/icon.svg" alt="Логотип" class="header__logo" />
+        <a routerLink="/home" class="link header__logo-link">
+            <img src="assets/images/icons/icon.svg" alt="Логотип" class="header__logo" />
         </a>
         <ul class="header__list">
             <li class="header__list-item">
-                <a class="header__link" routerLink="">Главная</a>
+                <a class="header__link header__link_text" routerLink="/home" routerLinkActive="header__link_text_active">Главная</a>
             </li>
             <li class="header__list-item">
-                <a class="header__link" routerLink="/items">Товары</a>
+                <a class="header__link header__link_text" routerLink="/items" routerLinkActive="header__link_text_active">Товары</a>
             </li>
             <!-- <li class="header__list-item">
                 <a class="header__link">О Доставке</a>
             </li> -->
             <li class="header__list-item">
-                <a class="header__link" routerLink="/events">Акции</a>
+                <a class="header__link header__link_text" routerLink="/events" routerLinkActive="header__link_text_active">Акции</a>
             </li>
         </ul>
         <div class="header__list  header__list_right">
@@ -22,7 +22,7 @@
                 class="header__input"
                 placeholder="Поиск"
             />
-            <a class="button header__button header__button_profile"></a>
+            <a class="header__link header__link_icon"></a>
         </div>
     </div>
 </header>

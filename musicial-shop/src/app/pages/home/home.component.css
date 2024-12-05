@@ -1,8 +1,25 @@
+.home {
+  position: relative;
+  /* border:  1px solid transparent; */
+}
+
 .home__content {
   display: flex;
   justify-content: space-between;
   position: relative;
+  margin-bottom: 155px;
 }
+
+/* .home::after {
+  content: '';
+  position: absolute;
+  width: 500px;
+  height: 600px;
+  background-size: cover;
+  background-image: url('/assets/images/blue-light.png'); 
+  bottom: 0;
+  left: 0;
+} */
 
 .home__title {
   max-width: 680px;
@@ -14,7 +31,7 @@
 
 
 .home__title_span {
-  color: var(--accentColor);
+  color: var(--blueColor);
 }
 
 .home__description-container {
@@ -34,7 +51,7 @@
 .home__button {
   width: 150px;
   height: 50px;
-  background-color: var(--accentColor);
+  background-color: var(--blueColor);
   color: #000000;
   border: none;
   box-shadow: 5px 5px 9px rgba(152, 216, 250, .6);
@@ -56,7 +73,7 @@
 .home__img-container {
   width: 700px;
   height: 600px;
-  background-image: url("../../assets/images/vinyl-player.png");
+  background-image: url("/assets/images/vinyl-player.png");
   background-position: center;
   background-size: cover;
   pointer-events: none;
@@ -64,12 +81,4 @@
   right: -130px;
   top: -80px;
   z-index: 0;
-}
-
-.categories {
-  background-color: #FFF9F9;
-}
-
-.categories__content {
-
 }

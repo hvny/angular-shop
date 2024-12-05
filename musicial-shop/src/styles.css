@@ -44,10 +44,13 @@ input {
   --secondaryColor: #FFF9F9;
   --backgroundColor: #F7EDE2;
   --textColor: #000000;
-  --accentColor: #7bcefc;
+  --blueColor: #7bcefc;
+  --orangeColor: #FFCF69;
   --titleFont: 'Ruslan Display', 'Helvetica', sans-serif;
   --textFont: 'Roboto Slab', 'Helvetica', sans-serif;
   max-width: 2000px;
+  /* width: 100%; */
+  margin: 0 auto 0 auto;
   background-color: var(--backgroundColor);
 
 }

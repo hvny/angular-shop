@@ -1,0 +1,6 @@
+.footer {
+    width: 1200px;
+    color: var(--textColor);
+    margin: 0 auto 0 auto;
+	padding-top: 30px;
+}
