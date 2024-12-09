@@ -1,1 +1,34 @@
+.items {
 
+}
+
+.items__content {
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.items__filter-container {
+  width: 250px;
+  height: 400px;
+  background-color: var(--secondaryColor);
+  color: var(--orangeColor);
+  border: 1px solid var(--orangeColor);
+  border-radius: 20px;
+  padding: 15px 0 0 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.items__filter-title {
+  font-family: var(--titleFont);
+  font-size: 30px;
+  margin: 0;
+}
+
+.items__products {
+  width: 900px;
+  height: 400px;
+}

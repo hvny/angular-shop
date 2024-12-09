@@ -1,17 +1,51 @@
-<div class="card">
-	<div class="card__wrapper">
-		<div class="card__title">
-			{{ counter | async }}
-		</div>
-		<div class="card__content">
-			<form [formGroup]="form">
-				<input type="text" formControlName="name" />
-			</form>
-		</div>
-		<div class="card__footer">
-			<button (click)="changeCounter(); $event.preventDefault()">
-				increase
-			</button>
-		</div>
-	</div>
-</div>
+<section class="section items">
+  <div class="section__content items__content">
+    <div class="items__filter-container">
+      <h2 class="items__filter-title">Фильтры</h2>
+    </div>
+    <div class="items__products">
+      <div class="items__products-container">
+        <h2 class="items__category-title"></h2>
+        <ul class="items__list">
+          <li class="items__list-item">
+            <div class="items__product">
+
+            </div>
+          </li>
+          <li class="items__list-item">
+            <div class="items__product">
+
+            </div>
+          </li>
+          <li class="items__list-item">
+            <div class="items__product">
+
+            </div>
+          </li>
+        </ul>
+      </div>
+
+      <div class="items__products-container">
+        <h2 class="items__category-title"></h2>
+        <ul class="items__list">
+          <li class="items__list-item">
+            <div class="items__product">
+
+            </div>
+          </li>
+          <li class="items__list-item">
+            <div class="items__product">
+
+            </div>
+          </li>
+          <li class="items__list-item">
+            <div class="items__product">
+
+            </div>
+          </li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+</section>

@@ -40,9 +40,8 @@ input {
 }
 
 :root {
-  --primaryColor: #FFF9F9;
-  --secondaryColor: #FFF9F9;
   --backgroundColor: #F7EDE2;
+  --secondaryColor: #FFF9F9;
   --textColor: #000000;
   --blueColor: #7bcefc;
   --orangeColor: #FFCF69;

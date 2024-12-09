@@ -29,58 +29,10 @@ export class HeaderComponent implements OnInit {
 	megaMenuItems: MegaMenuItem[] | undefined;
 
 	ngOnInit() {
-		this.menuItems = [
-			{ label: "Главная", route: "/home" },
-			{ label: "Товары", route: "/items" },
-			{ label: "Доставка", route: "/delivery" },
-			{ label: "Акции", route: "/events" },
-			// { label: 'Профиль', route: '/profile' },
-		];
 
-		this.megaMenuItems = [
-			{
-				label: "Винил",
-				items: [
-					[
-						{
-							label: "Жанр",
-							items: [
-								{ label: "Панк" },
-								{ label: "Хип-хоп" },
-								{ label: "Метал" },
-								{ label: "Классика" },
-							],
-						},
-					],
-				],
-			},
-			{
-				label: "Кассеты",
-				items: [
-					[
-						{
-							label: "Жанр",
-							items: [
-								{ label: "Панк" },
-								{ label: "Хип-хоп" },
-								{ label: "Метал" },
-								{ label: "Классика" },
-							],
-						},
-					],
-				],
-			},
-			{
-				label: "Прогрыватели",
-				items: [
-					[
-						{
-							label: "Тип",
-							items: [{ label: "Винил" }, { label: "Кассеты" }],
-						},
-					],
-				],
-			},
-		];
+
+
 	}
+
+
 }
