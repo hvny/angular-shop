@@ -1,9 +1,7 @@
 .items {
-
 }
 
 .items__content {
-  height: 100px;
   display: flex;
   justify-content: space-between;
 }
@@ -31,4 +29,5 @@
 .items__products {
   width: 900px;
   height: 400px;
+  border: 1px solid red;
 }
