@@ -18,10 +18,12 @@ import { BehaviorSubject, interval, takeUntil } from "rxjs";
 
 import { takeUntilDestroyed } from "@angular/core/rxjs-interop";
 
+import { ItemsContainerComponent } from "../../components/items-container/items-container.component";
+
 @Component({
 	selector: "app-items",
 	standalone: true,
-	imports: [AsyncPipe, ReactiveFormsModule],
+	imports: [AsyncPipe, ReactiveFormsModule, ItemsContainerComponent],
 	templateUrl: "./items.component.html",
 	styleUrl: "./items.component.css",
 	changeDetection: ChangeDetectionStrategy.OnPush,

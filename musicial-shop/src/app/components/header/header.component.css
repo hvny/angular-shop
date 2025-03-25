@@ -29,6 +29,10 @@
 .header__logo-link {
 	line-height: 0;
 	margin-right: 150px;
+	border-radius: 50%;
+}
+.header__logo-link:hover {
+	box-shadow: 0px 0px 20px var(--orangeColor);
 }
 
 .header__logo {
