@@ -1,8 +1,8 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
-import { categoriesCards } from '../../../../utils/constants/categories.constants';
-import { CategoryCardComponent } from '../../../components/category-card/category-card.component';
+import { categoriesCards } from '../../utils/constants/categories.constants';
+import { CategoryCardComponent } from '../category-card/category-card.component';
 
 @Component({
   selector: 'app-categories',

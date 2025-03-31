@@ -18,19 +18,20 @@ import { BehaviorSubject, interval, takeUntil } from "rxjs";
 
 import { takeUntilDestroyed } from "@angular/core/rxjs-interop";
 
-import { ItemsContainerComponent } from "../../components/items-container/items-container.component";
+import { ItemsContainerComponent } from "../../widgets/items-container/items-container.component";
+import { ItemsNavComponent } from "../../widgets/items-nav/items-nav.component";
 
 @Component({
 	selector: "app-items",
 	standalone: true,
-	imports: [AsyncPipe, ReactiveFormsModule, ItemsContainerComponent],
+	imports:[AsyncPipe, ReactiveFormsModule, ItemsContainerComponent, ItemsNavComponent],
 	templateUrl: "./items.component.html",
 	styleUrl: "./items.component.css",
 	changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class ItemsComponent {
 	private readonly _destroyRef = inject(DestroyRef);
-	protected readonly counter = new BehaviorSubject<number>(0);  
+	protected readonly counter = new BehaviorSubject<number>(0);
 	form: FormGroup;
 
 	constructor(private fb: FormBuilder) {

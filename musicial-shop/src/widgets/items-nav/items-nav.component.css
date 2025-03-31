@@ -1,0 +1,26 @@
+.items-nav {
+  margin: 0 auto 0 auto;
+  padding: 30px 0;
+}
+
+.items-nav__list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 50px;
+}
+
+.items-nav__list-item {
+  height: 100%;
+}
+
+.items-nav__link {
+  display: block;
+  font-size: 25px;
+  font-family: var(--titleFont);
+  color: var(--textColor);
+}
+
+.items-nav__link_active {
+  color: var(--orangeColor);
+}

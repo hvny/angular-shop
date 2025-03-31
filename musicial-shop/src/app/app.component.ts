@@ -1,14 +1,10 @@
 import { Component, inject } from '@angular/core';
 import { Router, RouterModule, RouterOutlet } from '@angular/router';
-import { HeaderComponent } from './components/header/header.component';
+import { HeaderComponent } from '../shared/ui/header/header.component';
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [
-    RouterOutlet,
-    RouterModule,
-    HeaderComponent
-  ],
+  imports: [RouterOutlet,RouterModule,HeaderComponent],
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })

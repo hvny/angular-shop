@@ -23,16 +23,13 @@ import { MegaMenuModule } from "primeng/megamenu";
 	changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class HeaderComponent implements OnInit {
-	private readonly _router = inject(Router);
+	protected headerNavLinks = [
+    { path: "/home", label: "Главная" },
+		{ path: "/items", label: "Товары" },
+		{ path: "/events", label: "Акции" },
+    { path: "/delivery", label: "Доставка" },
 
-	menuItems: MenuItem[] | undefined;
-	megaMenuItems: MegaMenuItem[] | undefined;
+  ]
 
-	ngOnInit() {
-
-
-
-	}
-
-
+	ngOnInit() {}
 }

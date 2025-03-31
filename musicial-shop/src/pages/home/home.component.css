@@ -15,7 +15,7 @@
 
 .home {
   position: relative;
-  /* border:  1px solid transparent; */
+  padding: 95px 0;
 }
 
 .home__content {

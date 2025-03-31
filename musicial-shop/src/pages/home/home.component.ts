@@ -1,6 +1,6 @@
 import { Component, ViewEncapsulation } from '@angular/core';
 import { ButtonModule } from 'primeng/button';
-import { CategoriesComponent } from './categories/categories.component';
+import { CategoriesComponent } from '../../widgets/categories/categories.component';
 @Component({
   selector: 'app-home',
   standalone: true,
